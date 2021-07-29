@@ -1,0 +1,13 @@
+#img-bg{
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhotimobiliaria.com.br%2F5-razoes-para-morar-de-frente-para-o-mar%2F&psig=AOvVaw39EXtjqPYbvcwgTf2qdkYi&ust=1627667478651000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDRpYvsiPICFQAAAAAdAAAAABAE);
+  min-height: 695px;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.temporizador:hover {
+  color :#21a110 ;
+  transition-duration: 1s;
+}
