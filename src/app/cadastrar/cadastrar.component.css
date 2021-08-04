@@ -1,9 +1,9 @@
-#img-bg{
-  background-image: url('../../assets/img/beira-mar.jpg');
+#img-bg {
+  background-image: url(../../assets/img/fakurian-design-cZIdV0OvjcY-unsplash.jpg);
 
   min-height: 695px;
-
-  background-position: center;
+  border-bottom-right-radius: 100px;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
