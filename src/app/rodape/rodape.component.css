@@ -1,27 +1,64 @@
-ul.social-network{
-  list-style: none;
+.corFooter {
+  background-color: #9556bf;
+  height: 100px;
+}
+
+ul.socialNetwork {
+  list-style: none; /* Remove list bullets */
+  display: inline;
   padding: 0;
 }
 
-ul.social-network li{
+ul.socialNetwork li {
   display: inline;
+  padding: 0;
   margin: 0;
-  padding: 5px;
 }
 
-.fa{
-  font-size: 20pt;
+.fa {
+  font-size: 35pt;
   color: white;
-  padding: 10px;
-}
-.fa-facebook-square:hover{
-  color: #141f36;
 }
 
-.fa-instagram:hover{
-  color: #240a18;
+.fa-facebook-official:hover {
+  color: #3b5998;
 }
 
-.fa-linkedin-square:hover{
-  color: #001927;
+.fa-instagram:hover {
+  color: #c13584;
+}
+
+.fa-github:hover {
+  color: black;
+}
+
+.fa-linkedin-square:hover {
+  color: #0072b1;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+.fs-24 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24.0148px;
+  line-height: 31px;
+  color: #767676;
+}
+
+.iconeZap {
+  width: 90%;
+}
+
+.zap {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.iconeCont {
+  width: 30%;
 }

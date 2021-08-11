@@ -1,3 +1,4 @@
+import { environment } from 'src/environments/environment.prod';
 import { CadastrarComponent } from './../cadastrar/cadastrar.component';
 import { UserLogin } from './../model/UserLogin';
 import { User } from './../model/User';
@@ -24,5 +25,13 @@ export class AuthService {
       'http://localhost:8080/usuarios/cadastrar',
       user
     );
+  }
+
+  logado(){
+    let ok:boolean = false
+    if (environment.token != ''){
+      ok = true
+    }
+    return ok
   }
 }

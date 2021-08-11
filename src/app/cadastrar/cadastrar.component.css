@@ -7,3 +7,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+#box:hover{
+  background-color: darkolivegreen;
+  border-radius: 50%;
+}
